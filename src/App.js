@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
 import { 
-  Layout, Header, Navigation, Drawer, Content, Footer, 
-  FooterSection, FooterLinkList, FooterDropDownSection 
-} from 'react-mdl';
+  Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="demo-big-content">
-      <Layout fixedHeader className="layout-container">
+      <Layout fixedHeader>
         <Header className="header-color" title="    " scroll>
           <Navigation>
             <Link to="/">Home</Link>
@@ -23,14 +21,13 @@ function App() {
             <Link to="/about">About</Link>
           </Navigation>
         </Drawer>
-        <Content className="content-container">
+        <Content>
           <div className="page-content" />
           <Main />
+          <div className="page-footer">
+            <p> © 2019 Anh T. Tra </p>
+          </div>
         </Content>
-
-        <Footer className="footer">
-            <p> © 2019 | Anh T. Tra </p>
-        </Footer>
       </Layout>
     </div>
   );

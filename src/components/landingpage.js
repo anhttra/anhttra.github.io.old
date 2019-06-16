@@ -6,9 +6,10 @@ class LandingPage extends Component {
     return (
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell col={12} style={{margin:0}}>
             <div className="banner-text">
               <h1>Anh T. Tra</h1>
+
               <div className="box">
                 <div className="box-sm red"></div>
                 <div className="box-sm orange"></div>
@@ -18,7 +19,7 @@ class LandingPage extends Component {
                 <div className="box-sm purple"></div>
               </div>
 
-              <p> AI Researcher - Data Engineer - Coder - Speaker - Writer</p>
+              <p> <mark>AI Researcher</mark> - <mark>Data Engineer</mark> - <mark>Coder</mark> - <mark>Speaker</mark> - <mark>Writer</mark></p>
 
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/anhttra/" rel="noopener noreferrer" target="_blank">
@@ -29,8 +30,8 @@ class LandingPage extends Component {
                 </a>
                 <a href="https://github.com/anhttra" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
-                </a>
-              </div>
+                </a>                
+              </div>            
             </div>
           </Cell>
         </Grid>

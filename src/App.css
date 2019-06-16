@@ -1,34 +1,30 @@
-.layout-container {
-  min-height:100%;
-  position:relative;
-  padding-bottom: 0;
-}
-
 .header-color{
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.content-container {
+.landing-grid {
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  margin:0;
-  padding: 0;
-  height:100%;
-}
-
-.footer{
-  bottom:0;
+  position: fixed;
+  left: 0;
   width: 100%;
+  height: 100%; 
 }
 
-.footer p {
+.page-footer {
+  position: fixed;
+  bottom: 0;
   text-align: center;
-  padding: 2px;
-  height: 0.5em;
+  width: 100%;
+  height: 2em;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 20%;
 }
 
 .isDisabled {
@@ -36,8 +32,17 @@
   opacity: 0.5;
 }
 
-.about-text p {
+.about-grid {
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
   color: white;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 .banner-text{
@@ -64,6 +69,10 @@
   font-size: 14px;
   width: 100%;
   padding-top: 1em;
+}
+
+.banner-text p mark{
+  background: floralwhite;
 }
 
 .social-links {
@@ -130,4 +139,19 @@
     .mdl-layout--fixed-header > .mdl-layout__header {
         display: -webkit-flex;display: -ms-flexbox;display: flex
     }
+}
+
+.speaking-content{
+  padding-top: 20px;
+
+}
+.speaking-content hr{
+  width: 50%;
+  border-top: 2px dotted black;
+}
+
+.speaking-content {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
