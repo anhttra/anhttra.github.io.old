@@ -7,7 +7,7 @@ class AboutPage extends Component {
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="about-grid">
           <Cell col={12}>
-            <div>
+            <div className="about-text">
               <p>Comming soon ...</p>
             </div>
           </Cell>

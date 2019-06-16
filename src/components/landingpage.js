@@ -9,7 +9,6 @@ class LandingPage extends Component {
           <Cell col={12}>
             <div className="banner-text">
               <h1>Anh T. Tra</h1>
-
               <div className="box">
                 <div className="box-sm red"></div>
                 <div className="box-sm orange"></div>
@@ -32,7 +31,6 @@ class LandingPage extends Component {
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
               </div>
-
             </div>
           </Cell>
         </Grid>
