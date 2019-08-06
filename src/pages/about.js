@@ -14,7 +14,8 @@ class AboutPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="About Anh Tra" />
-        <p>Coming soon ...</p>
+        <p style={{textAlign: "justify"}}>I am a husband and a father of one son. I am also an enthusiastic AI/ML/DL engineer, who can study hard, work hard, play hard and die softly. My <a target="_blank" href="https://drive.google.com/open?id=1GW64mal_BLuvM7VeYx4JnTnVbgFZ6W7v">resumé</a>.</p>
+      <Bio/>
       </Layout>
     )
   }
